@@ -22,7 +22,7 @@ Resources:
   HelloWorld:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
+      Handler: pvh_digital.__init__.flask_app
       Runtime: python3.6
       Role:
         Fn::ImportValue:

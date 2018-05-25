@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3.6"
+
+[packages]
+zappa = ">=0.41"
+Flask = ">=1.0"
+flask-s3 = ">=0.3"
+flask-markdown = ">=0.3"
+flask-wtf = ">=0.14"
+boto3 = ">=1.7"
+flask-restplus=">=0.1"
+pynamodb =">=3.2"
+
+[dev-packages]
+awscli = "*"
+pytest = ">=2.8.0"
+pytest-flask = "*"
+coverage = ">=4.5"
+pylint  =">=1.8"
+
+
