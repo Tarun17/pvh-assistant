@@ -48,7 +48,6 @@ def main():
     """
     flask_app = Flask(__name__)
     flask_app = initialize_app(flask_app)
-    //log.info('Starting development server at http://{}/api/'.format(flask_app.config['SERVER_NAME']))
     flask_app.config.update(DEBUG=True)
     return flask_app
 
