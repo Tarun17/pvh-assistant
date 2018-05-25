@@ -24,6 +24,8 @@ def configure_app(flask_app):
     flask_app.config['RESTPLUS_VALIDATE'] = settings.RESTPLUS_VALIDATE
     flask_app.config['RESTPLUS_MASK_SWAGGER'] = settings.RESTPLUS_MASK_SWAGGER
     flask_app.config['ERROR_404_HELP'] = settings.RESTPLUS_ERROR_404_HELP
+    flask_app.config['SERVER_NAME'] = 'localhost:5000'
+
 
 
 def initialize_app(flask_app):
@@ -48,6 +50,8 @@ def main():
     """
     flask_app = Flask(__name__)
     flask_app = initialize_app(flask_app)
+    log.info('Starting development server at http://{}/api/'
+             .format(flask_app.config['SERVER_NAME']))
     flask_app.config.update(DEBUG=True)
     return flask_app
 
