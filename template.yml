@@ -31,10 +31,10 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /api/
             Method: get
         PostEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /api/
             Method: post
