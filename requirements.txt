@@ -34,7 +34,7 @@ mccabe==0.6.1
 more-itertools==4.1.0
 placebo==0.8.1
 pluggy==0.6.0
-py==1.5.3
+py==1.10.0
 pyasn1==0.4.2
 pylint==1.8.4
 pynamodb==3.2.1
