@@ -52,7 +52,7 @@ tqdm==4.19.1
 traceback2==1.4.0
 troposphere==2.2.1
 Unidecode==1.0.22
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.14.1
 wrapt==1.10.11
 wsgi-request-logger==0.4.6
